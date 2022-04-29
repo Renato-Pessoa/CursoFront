@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    margin-left: 5px;
+}
+
+.card {
+    background-image: url(../imagens/backgorund.png);
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    background-size: cover;
+}
+
+ul {
+    font-family: helvetica, arial, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#instagram {
+    list-style-image: url(../imagens/Insta.png);
+    margin-left: 5px;
+}
+
+#twitter {
+    list-style-image: url(../imagens/Twitter.png);
+    margin-left: 5px;
+}
+
+#yt {
+    list-style-image: url(../imagens/Youtube.png);
+    margin-left: 5px;
+}

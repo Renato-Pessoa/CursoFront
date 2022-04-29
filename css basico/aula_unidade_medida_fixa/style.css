@@ -1,0 +1,54 @@
+#paragrafo-principal {
+    color: red;
+    /* background-color: blue; */
+    background-image: url(./imagens/bg-ps5jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#titulo {
+    color: rgb(255, 255, 0)
+}
+
+.texto-verde{
+    color: green;
+}
+
+#cm {
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm {
+    background-color: red;
+    width: 5mm;
+    height: 5mm;
+}
+
+/* 1 polegada tem 2.54cm */
+#in {
+    background-color: green;
+    width: 1in;
+    height: 1in;
+}
+
+#px {
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+}
+
+#pt {
+    background-color: red;
+    width: 12pt;
+    height: 12pt;
+}
+
+/* 1 pc é equivalente a 12 pontos(pt) */
+#pc{
+    background-color: green;
+    width: 1pc;
+    height: 1pc;
+}

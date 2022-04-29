@@ -1,0 +1,28 @@
+#paragrafo-principal {
+    color: red;
+    /* background-color: blue; */
+    background-image: url(./imagens/bg-ps5jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#titulo {
+    color: rgb(255, 255, 0)
+}
+
+.texto-verde{
+    color: green;
+}
+
+#base {
+    height: 10px;
+    background-color:red;
+    margin: 10px;
+}
+
+#container {
+    background-color:blue;
+    color: white;
+    padding: 10px;
+}

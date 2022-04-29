@@ -1,0 +1,48 @@
+- Classe pode ser utilizada em mais de um elemento, 
+mas o id só pode ser usado em um único elemento.
+
+- Existe o RGB e o RGBA. O RGBA é para você indicar a cor e sua opacidade.
+
+- Para adicionar uma imagem ao bg, utiliza-se o background-image, para acabar a
+repetição da imagem utiliza-se o background-repeat: no repeat, para ajustar o tamanho do bg
+utiliza o background-size, para deixar o bg fixo utiliza o background-attachment: fixed
+
+- A div serve para você criar um bloco com conteúdos semelhantes e poder facilitar
+a modificação em conjuto deles. Você também pode adicionar uma div dentro de div.
+
+- O tamanho padrão do texto é de 16px.
+
+- A unidade de medida 'em' serve para copiar o tamanho do elemento pai.
+
+- A unidade de medida 'rem' faz referencia ao tamanho do elemento raiz. Quase sempre o elemento 
+<html>.
+
+- A unidade vw é referente a largura da janela. 1 vw é equivalente a 1% da largura da janela.
+
+- A unidade vh é igual a vw, porém ao inves de ser referente a largura, ela é referente a altura.
+
+- O vmin é referente a menor dimensão, seja ela altura ou largura.
+
+- O vmax é o oposto do vmin.
+
+- O % sempre vai ser referente ao elemento pai.
+
+- A margem da um espaçamento da borda pra fora e o padding da um espaçamento da borda
+pra dentro.
+
+- A borda faz o elemento ocupar mais espaço na tela.
+
+- Para alinhar um texto ao centro, usamos o text-align: center;.
+
+- Para justificar o texto usamos o text-align: justify;
+
+- Usando o text-transform é possivel deixar o texto em uppercase, lowercase, etc...
+
+- Familias de fontes: Com serifa, sem serifa e mono space. Em uma fonte mono space todos os 
+caracteres tem a mesma largura. Esses 3 tipos de fontes são chamados de familias genericas.
+
+- Para mudar o estilo de cursor do link usa a propiedade cursor: ; .
+
+- Para alterar o estilo da lista, usamos a propriedade list-style: ;.
+
+- Para usarm uma imagem no estilo da lista, usamos o list-style-image: ;,

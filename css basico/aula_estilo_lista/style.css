@@ -1,0 +1,33 @@
+ul {
+    list-style: square;
+    list-style-position: inside;
+    margin-bottom: 5px;
+    padding: 10px;
+
+    background-color: #f3e;
+}
+
+ol {
+    list-style: upper-alpha;
+    list-style-position: inside;
+    margin: 0px;
+    padding: 10px;
+
+    background-color: #59e;
+}
+
+li {
+    border: 1px solid black;
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: rgb(206, 158, 0);
+}
+
+li:active {
+    background-color: green;
+}

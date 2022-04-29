@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha primeira página</title>
+
+    <style>
+
+        body {
+            font-size:1.2rem;
+        }
+
+        .quadrado {
+            width:100px;
+            height:100px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .ret {
+            width:100px;
+            height:500px;
+            margin-top: 10px;
+
+            overflow: auto;
+        }
+
+        .static {
+            position: static;
+        }
+
+        .relative {
+            position: relative;
+
+        }
+
+        .fixed {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 40px;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 5px;
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+
+        .bg-blue {
+            background-color: blue;
+        }
+
+        .bg-green {
+            background-color: green;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="ret bg-blue">
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-green sticky"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+    </div>
+
+
+</body>
+</html>

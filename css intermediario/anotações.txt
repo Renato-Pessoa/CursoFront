@@ -1,0 +1,57 @@
+# Propriedade Display:
+
+- O parágrafo, a div são do tipo display block, ou seja, ele ocupa o espaço de uma linha inteira
+fazedo com que outro atributo não fique ao lado dele.
+
+- O span é do tipo inline, ou seja, ele só ocupa o espaço do elemento.
+
+- No display block é possível botar uma largura especifica.
+
+- No display inline não é possível alterar a altura e a largura do elemento.
+
+- O parágrafo por natureza já vem com margin.
+
+- No display inline-block vai manter o comportamento do display inline, mas vai permitir
+alterar a largura e a altura.
+
+- O display none faz com que o elemento nuca tenha sido colocado na tela.
+
+
+
+# Propriedade Overflow:
+
+- O overflow é utilizado para delimitar o conteúdo a área do elemento pai.
+
+- Caso o valor de overflow seja hidden, ele vai esconder todo o conteúdo de dentro da div que está
+passando da linha.
+
+- O overflow scroll vai esconder todo o conteúdo que ta fora do limite da div, porém vai permitir
+você arrastar para baixo ou para o lado para poder visualizar.
+
+- O overflow auto vai identificar automaticamente ne necessita da ação de arrastar para
+visualizar.
+
+- Você também pode indicar o eixo que quer o scroll, no eixo X ou Y.
+
+# Alinhamento horizontal:
+
+- Para alinhar um elemento ao centro, pode-se usar o margin: auto;
+
+- Para alinhar um elemento ao canto superior direito, usa-se margin-left: auto;
+
+- Para poder alinhar uma imagem, deve primeiro alterar o display dela para block ou botar dentro
+de uma div e usar text-align.
+
+
+
+# Propriedade Position:
+
+- O position static vai seguir o fluxo padrão da página.
+
+- O position relative é posicionado inicialmente igual ao static, porém ele recebe propriedades
+right, top, lef, bottom. Ela é relativa a posição original dele caso ele fosse estático.
+
+- O position fixed é em relação a janela.
+
+- O position absolute vai ser em relação ao pai do elemento, caso não tenha pai é em relação ao
+body. Se o elemento pai for static ele vai o pai do pai.

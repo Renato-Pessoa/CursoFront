@@ -1,0 +1,81 @@
+- Aula Sobre Tag no HTML 
+
+* A estrutura da tag é <nomeDaTag> Conteúdo </nomeDaTag> (Elemento HTML)
+* Existe também a tag de auto fechamento e a estrutura dela é <nomeDaTag/> ou <nomeDaTag>
+* A tag H vai de h1 até h6, sendo a h1 o título principal. É importante que a página tenha
+somente um título h1.
+* A tag P é uma tag de parágrafo.
+
+- ESTRUTURA BÁSICA DE UMA PÁGINA HTML:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Nome da Página </title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+    </body>
+
+</html>
+
+- Tags de formatação: 
+
+* A tag <b></b> é utilixada para deixar o texto em negrito, porém a tag <strong></strong> é melhor
+para os mecanismos de busca.
+
+* A tag <i> é utilizada para deixar o texto em itálico, porém a tag <em> é melhor para os mecanismos
+de busca, assim como a tag <strong>.
+
+* A tag <mark> é utilizada para marcar uma parte do texto.
+
+* A tag <small> serve para deixar o texto um pouco menor.
+
+* A tag <del> serve para riscar uma parte do texto informando que essa parte foi apagada.
+
+* A tag <ins> serve para mostrar uma parte do texto que foi inserida.
+
+* A tag <a> é uma âncora para levar para outra página.
+
+* A tag <img> serve para adiconar fotos na página.
+
+* A tag <br> é utilizada para pular linhas no html.
+
+- Criação de lista HTML:
+
+* A lista com a tag <ul> não é ordenada, a ordem não importa.
+
+* A tag para adicionar um item a lista é a <li>
+
+* A lista com a tag <ol> é a lista ordenada.
+
+- Criando tabela no html:
+
+ <table>
+
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Email</th>
+            </tr>
+
+            <tr>
+                <td>Renato</td>
+                <td>9 8168-0475</td>
+                <td>renato@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Joana</td>
+                <td>9 8888-8888</td>
+                <td>joana@gmail.com</td>
+            </tr>
+
+        </table>
+
+* A tag <table> indica onde vai começar e terminar a tabela.
+
+* A tag <th> é tudo que vai ficar no topo da tabela.
+
+* A tag <tr> são as linhas da tabela e o <td> é o conteúdo da linha.

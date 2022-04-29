@@ -1,0 +1,44 @@
+#paragrafo-principal {
+    color: red;
+    /* background-color: blue; */
+    background-image: url(./imagens/bg-ps5jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#titulo {
+    color: rgb(255, 255, 0)
+}
+
+.texto-verde{
+    color: green;
+}
+
+/* .container {
+    font-size: 20px;
+
+    width: 300px;
+    background-color: red;
+} */
+
+/* .inside {
+    Ta copiando o tamanho da fonte ^ e multipliucando por 2x o valor dela. Ex: 20px X 2 = 40px 
+    font-size: 2em;
+
+    Ta copiando o tamanho da fonte ^. Ex: 40px
+    width: 1em;  
+    background-color:blue;
+} */
+
+.container {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.inside{
+    width: 80%;
+    height: 50%;
+    background-color:blue;
+}
