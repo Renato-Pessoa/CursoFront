@@ -1,0 +1,26 @@
+# Input:
+
+- No input do tipo radio é importante todos
+os elementos possuirem o mesmo name, pois 
+só vai ser permitido que um seja marcado.
+
+# Tag Select:
+
+- Cria um dropbox no form.
+
+- O atributo selected dentro da tag option
+faz com que aquela opcao seja a selecionada
+quando a página for carregada.
+
+
+# Tag Textarea:
+
+- Para criar um campo de mensagem, usa-se 
+a tag textarea.
+
+
+# Tags Semanticas:
+
+- Elas sao fundamentais no código para 
+melhorar seu rankeamento nos mecanismos
+de busca.

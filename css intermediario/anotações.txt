@@ -55,3 +55,34 @@ right, top, lef, bottom. Ela é relativa a posição original dele caso ele foss
 
 - O position absolute vai ser em relação ao pai do elemento, caso não tenha pai é em relação ao
 body. Se o elemento pai for static ele vai o pai do pai.
+
+
+
+# Propriedade Float:
+
+- É uma propriedade que permite que o elemento fique flutuando do lado
+de um outro elemento.
+
+- Para que nenhum elemento flutue do lado de um determinado elemento
+utiliza a propiedade clear: ;.
+
+
+# Alinhamento Vertical:
+
+- Uma das maneiras de fazer o alinhamento vertical é usando a propriedade
+line-height, mas tem que usar o mesmo tamanho da altura do elemento pai.
+
+- Uma outra maneira de alinhar o elemento ao centro é usando o position
+absolute e botando top e left ou right em 50%, após isso, para terminar
+de alinhar usa a propriedade transform: translate(-50%,-50%) para
+alinhar corretamente ao centro.
+
+- Também é possível alinhar utilizando o paddind, porém a precisao
+da altura e largura nao é a mesma.
+
+
+# Media Queries:
+
+- As medias queries servem para dar um 
+comportamento diferente para algum elemento
+dependendo do tamanho da tela.

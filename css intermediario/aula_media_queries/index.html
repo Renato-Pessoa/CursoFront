@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira página</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+img {
+    width: 100px;
+}
+
+        .header{
+            width: 80%;
+            background-color: #5C57A4;
+            margin: auto;
+            overflow: hidden;
+            font-size: 18px;
+            padding: 20px;
+        }
+
+        .menu{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+
+        li {
+            display: inline-block;
+            color: white;
+            margin-left: 15px;
+        }
+
+        .logo {
+            float: left;
+            color: white;
+        }
+
+        /*Se a janela tiver no max 500px*/
+        @media screen and (max-width: 500px){
+            .logo{
+                float: none;
+                text-align: center;
+            }
+
+            .menu{
+                margin-top: 20px;
+                float: none;
+                text-align: center;
+            }
+
+            li{
+                margin-bottom: 5px;
+                float: none;
+                display: block;
+
+                padding: 10px;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo">
+            Logo
+        </div>
+
+        <ul class="menu">
+            <li>Home</li>
+            <li>Cursos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+
+</body>
+</html>
