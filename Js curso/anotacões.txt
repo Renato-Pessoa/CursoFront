@@ -1,0 +1,9 @@
+
+- JavaScript é uma linguagem de tipagem fraca.
+
+- Evitar usar nomes genéricos e siglas
+
+- A variável do tipk let só é visivel dentro do bloco.
+
+- O efeito de hosting acontece somente com variaveis declaradas com var
+e não funciona com let.
