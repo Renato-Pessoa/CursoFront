@@ -7,3 +7,10 @@
 
 - O efeito de hosting acontece somente com variaveis declaradas com var
 e não funciona com let.
+
+- O do/while faz pelo menos uma repeticao, diferente do
+while que só fará a repeticao caso a condicao seja
+verdadeira.
+
+- O break quebra todo o laço, o continue pula
+uma determinada repetiçao
